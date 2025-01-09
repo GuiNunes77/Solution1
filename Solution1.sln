@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{CFAF2D03-96B4-4C3B-9DA9-AB9FBF2CB16B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{5B1FB6CA-8A25-4892-942E-C04856551B15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86831C68-2454-4C91-B17D-C48E22F3A4B2} = {86831C68-2454-4C91-B17D-C48E22F3A4B2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLibrary", "BaseLibrary\BaseLibrary.csproj", "{132FD0D6-B1BE-4032-A2C0-A3B15096493D}"
 EndProject
